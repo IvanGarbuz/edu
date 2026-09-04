@@ -48,7 +48,13 @@
     "eslint/prefer-const": "error",
     "unicorn/prefer-node-protocol": "error",
     "vitest/no-focused-tests": "error",
-    "vitest/no-disabled-tests": "warn"
+    "vitest/no-disabled-tests": "warn",
+    "typescript/no-extraneous-class": [
+      "error",
+      {
+        "allowWithDecorator": true
+      }
+    ]
   },
   "env": {
     "node": true
